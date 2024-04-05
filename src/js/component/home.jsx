@@ -4,6 +4,7 @@ import LikesCounter from "./likescounter";
 import Temporizador from "./temporizador";
 import Input from "./input";
 import Modal from "./modal";
+import Todos from "./todos";
 
 //create your first component
 const Home = () => {
@@ -38,6 +39,7 @@ const Home = () => {
 			<br />
 			<br />
 			<br />
+			<Todos></Todos>
 		</div>
 	);
 };
